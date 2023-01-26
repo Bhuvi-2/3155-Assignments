@@ -56,11 +56,11 @@ class SandwichMachine:
         transaction_coins = []  # an array to store the inserted coins
         nickel_input = float(input("How many nickels? ")) * 0.05         # user input for nickels
         quarter_input = float(input("How many quarters? ")) * 0.25       # user input for quarters
-        halfdollar_input = float(input("How many half dollars? ")) * 0.50  # user input for half dollars
+        half_dollar_input = float(input("How many half dollars? ")) * 0.50  # user input for half dollars
         dollar_input = float(input("How many dollars? ")) * 1            # user input for dollars
         transaction_coins.append(nickel_input)      # adds all the inserted nickels into the array
         transaction_coins.append(quarter_input)     # adds all the inserted quarters into the array
-        transaction_coins.append(halfdollar_input)  # adds all the inserted half dollars into the array
+        transaction_coins.append(half_dollar_input)  # adds all the inserted half dollars into the array
         transaction_coins.append(dollar_input)      # adds all the inserted dollars into the array
         total = sum(transaction_coins)  # sums all the coins in the array
         return total    # returns the sum
