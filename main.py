@@ -41,7 +41,7 @@ class SandwichMachine:
 
     # main constructor
     def __init__(self, machine_resources):
-        self.machine_resources = machine_resources
+        self.machine_resources = machine_resources  # assigns machine_resources to itself
         self.recipes = recipes
 
     # method to check if there are enough resources to make the sandwich
