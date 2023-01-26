@@ -66,14 +66,14 @@ class SandwichMachine:
         return total    # returns the sum
 
     # method to verify the transaction and compare the inserted coins to the transaction cost
-    def transaction_result(self, inserted_coins, transaction_cost):
-        if inserted_coins < transaction_cost:  # returns false if  inserted coins is less than the cost of transaction
+    def transaction_result(self, inserted_coins, transaction_price):
+        if inserted_coins < transaction_price:  # returns false if  inserted coins is less than the cost of transaction
             return False
-        elif inserted_coins == transaction_cost:   # prints a message & returns true if  inserted money = the meal price
+        elif inserted_coins == transaction_price:  # prints a message & returns true if  inserted money = the meal price
             return f'Thank you, that was the exact amount of coins needed for this order.'
             return True
-        elif inserted_coins > transaction_cost:  # provides change & returns true if  inserted money is more than the price
-            change = inserted_coins - transaction_cost
+        elif inserted_coins > transaction_price:  # provides change & returns true if  inserted money is more than the price
+            change = inserted_coins - transaction_price
             return f'Here is your change of ${change}.'
             return True
         else:               # returns false otherwise
