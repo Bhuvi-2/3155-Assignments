@@ -102,7 +102,7 @@ while True:     # while loop to reiterate back to the main menu of options after
                 sandwich_machine.make_sandwich(selection, recipe["ingredients"])
                 print(sandwich_machine.transaction_result(coins, cost))
                 print("Your " + selection + " sandwich is ready. Enjoy!")
-            else:   # error message for insufficient money
+            else:   # error message for insufficient mone
                 print("Sorry, that's not enough money for this item. Your money has been refunded.")
         else:       # error message for insufficient ingredients
             print("Sorry, there are not enough ingredients to make your item at this time.")
