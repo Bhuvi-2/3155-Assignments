@@ -1,0 +1,75 @@
+.circle {
+        width: 70px;
+        height: 50px;
+        border-radius: 25px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 17px;
+        margin-bottom: 20px;
+        background-color: red;
+        display: inline-block;
+      }
+      .container {
+        float: left;
+        width: 25%;
+        background-color: lightgreen;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .header {
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .footer {
+        background-color: lightblue;
+        width: 70%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+      .footer2 {
+        background-color: lightblue;
+        width: 70%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+      .footer3 {
+        background-color: lightblue;
+        width: 70%;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+      .title {
+        background-color: lightgray;
+        width: 70%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        color: darkred;
+        font-size: 25px;
+      }
+
+    textarea{
+    width: 80%;
+    height: 150px;
+    position: relative;
+    }
+
+    h2 {
+    font-weight: bold;
+    text-align: center;
+    }
+
+      .
